@@ -116,7 +116,7 @@ nav a.active::after {
   font-family: "Playfair Display", serif;
   font-size: 3.5rem;
   font-weight: 700;
-  color: #f3e7d0;
+  color: #bdbdbd;
   margin-bottom: 1rem;
 }
 
