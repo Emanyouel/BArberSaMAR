@@ -90,14 +90,8 @@ nav a.active::after {
 }
 
 @media (max-width: 768px) {
-  .hero {
-    background-attachment: scroll }
   .hero h1 {
-  font-family: "Playfair Display", serif;
   font-size: 3rem;
-  font-weight: 700;
-  color: #ffffff;
-  margin-bottom: 1rem;
 }  
 }
 
