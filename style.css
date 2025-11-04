@@ -9,7 +9,7 @@ body {
   font-family: "Poppins", sans-serif;
   color: #fff;
   overflow-x: hidden;
-   background: linear-gradient(to bottom, #0a1606, #000000,#070f04);
+   background: linear-gradient(to bottom, #0c1a07, #000000,#070f04);
 }
 
 /* Header / Navbar */
@@ -1019,7 +1019,7 @@ nav a.active::after {
 /* Responsive */
 @media (max-width: 900px) {
   .contact-container {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .map-container, .contact-details {
