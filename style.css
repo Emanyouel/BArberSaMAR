@@ -9,7 +9,7 @@ body {
   font-family: "Poppins", sans-serif;
   color: #fff;
   overflow-x: hidden;
-   background: linear-gradient(to bottom, #0c1a07, #000000,#070f04);
+   background: linear-gradient(to bottom, #0b1807, #000000,#070f04);
 }
 
 /* Header / Navbar */
@@ -90,9 +90,7 @@ nav a.active::after {
 }
 
 @media (max-width: 768px) {
-  .hero h1 {
-  font-size: 3rem;
-}  
+ 
 }
 
 .hero::before {
@@ -376,6 +374,13 @@ nav a.active::after {
   }
   .hero-logo {
   margin-top: 35px;
+}
+ .hero h1 {
+  font-size: 32px;
+}  
+
+.hero p{
+    font-size: 16px;
 }
 }
 #gallery{
