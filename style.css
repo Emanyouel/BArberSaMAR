@@ -287,7 +287,7 @@ nav a.active::after {
 .service-menu.hair::before {
   background: url('images/menu\ photo3.jpg') no-repeat center center/cover;
   background-attachment: fixed;
-  background-size: contain;
+  background-size: 120%;
   background-position: 27%;
 }
 
@@ -295,7 +295,7 @@ nav a.active::after {
 .service-menu.facial::before {
   background: url('images/menu\ Photo\ 1.jpg') no-repeat center center/cover;
   background-attachment: fixed;
-  background-size: contain;
+  background-size: 120%;
   background-position: 72%;
 }
 
@@ -382,6 +382,10 @@ nav a.active::after {
 .hero p{
     font-size: 17px;
 }
+
+.services-header h2 {
+    font-size: 38px;
+}
 }
 #gallery{
   background: linear-gradient(to bottom,#0e0f0e, #0a160600 );
@@ -463,7 +467,7 @@ nav a.active::after {
 
   .our-gallery-heading{
    font-family: "Playfair Display", serif;
-  font-size: 2.8rem;
+  font-size: 38;
   color: #3c9917;
   margin-bottom: 1rem;
 }
@@ -478,13 +482,15 @@ nav a.active::after {
 }
 
 .about-container {
+   background-color: #070f04; 
   display: flex;
   align-items: center;
   justify-content: space-between;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 40px;
+  padding: 40px;
   gap: 60px;
+  border-radius: 14px;
 }
 
 /* ==== MEDIA / VIDEO ==== */
@@ -494,6 +500,7 @@ nav a.active::after {
   justify-content: center;
   border-radius: 15px;
   overflow: hidden;
+  width: auto;
   box-shadow: 0 0 20px rgba(60, 153, 23, 0.15);
 }
 
@@ -501,7 +508,7 @@ nav a.active::after {
 .about-media img {
   width: 100%;
   height: 100%;
-  max-width: 480px;
+  max-width: auto;
   object-fit: cover;
   border-radius: 15px;
 }
@@ -565,10 +572,13 @@ nav a.active::after {
 }
 
 .note {
+  background-color: #141b14;
+  border-radius: 5px;
   font-size: 0.9rem;
   color: #999;
   margin-top: 20px;
   font-style: italic;
+  padding-left: 5px;
 }
 
 /* ==== RESPONSIVE ==== */
@@ -596,7 +606,7 @@ nav a.active::after {
   }
 
   .about-text h2 {
-    font-size: 1.8rem;
+    font-size: 38px;
   }
 
   .about-text h3 {
@@ -757,6 +767,10 @@ nav a.active::after {
   border-collapse: collapse;
   margin-top: 15px;
   text-align: start;
+}
+
+.contact-info h2{
+    font-size: 38px;
 }
 
 
