@@ -89,6 +89,11 @@ nav a.active::after {
   position: relative;
 }
 
+@media (max-width: 768px) {
+  .hero {
+    background-attachment: scroll }
+}
+
 .hero::before {
   content: "";
   position: absolute;
@@ -116,7 +121,7 @@ nav a.active::after {
   font-family: "Playfair Display", serif;
   font-size: 3.5rem;
   font-weight: 700;
-  color: #bdbdbd;
+  color: #ffffff;
   margin-bottom: 1rem;
 }
 
