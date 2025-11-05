@@ -218,10 +218,11 @@ nav a.active::after {
 .service-menu {
   position: relative;
   width: 320px;
-  border-radius: 8px;
+  height: 418px;
+  border-radius: 15px;
   overflow: hidden;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
-  border: 1px solid rgba(119, 217, 110, 0.3);
+  border: 2px solid rgba(119, 217, 110, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
