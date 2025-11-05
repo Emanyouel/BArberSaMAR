@@ -217,8 +217,8 @@ nav a.active::after {
 /* Each menu container */
 .service-menu {
   position: relative;
-  width: 320px;
-  height: 418px;
+  width: 380px;
+  height: 478px;
   border-radius: 15px;
   overflow: hidden;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
