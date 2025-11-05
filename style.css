@@ -90,7 +90,9 @@ nav a.active::after {
 }
 
 @media (max-width: 768px) {
- 
+ .hero{
+    background-attachment: scroll;
+ }
 }
 
 .hero::before {
@@ -165,7 +167,12 @@ nav a.active::after {
   background: #3c9917;
   color: #111;
 }
-
+@media (max-width: 768px) {
+    .buttons{
+    flex-direction: column;
+    }
+    
+}
 /* ---------------- Our Services Section with Image Layers ---------------- */
 
 .services {
@@ -385,6 +392,10 @@ nav a.active::after {
 
 .services-header h2 {
     font-size: 38px;
+}
+
+.service-menu.hair::before , .service-menu.facial::before  {
+    background-attachment: scroll;
 }
 }
 #gallery{
