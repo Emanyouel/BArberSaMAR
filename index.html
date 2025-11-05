@@ -351,13 +351,6 @@
       );
 
       sections.forEach((section) => observer.observe(section));
-
-      document.addEventListener("DOMContentLoaded", function () {
-        const video = document.querySelector("video");
-        if (video) {
-          video.play().catch((err) => console.log("Autoplay prevented:", err));
-        }
-      });
     </script>
   </body>
 </html>
