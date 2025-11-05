@@ -505,6 +505,13 @@ nav a.active::after {
   border-radius: 14px;
 }
 
+.about-us-heading{
+      font-family: "Playfair Display", serif;
+  font-size: 2.8rem;
+  color: #3c9917;
+  margin-bottom: 1rem;
+  text-align: center;
+}
 /* ==== MEDIA / VIDEO ==== */
 .about-media {
   flex: 1;
