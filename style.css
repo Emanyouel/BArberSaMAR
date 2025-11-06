@@ -126,6 +126,11 @@ nav a.active::after {
   margin-bottom: 1rem;
 }
 
+#subheading{
+  font-size: 1.8rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
 .hero p {
   font-size: 1.1rem;
   color: #eaeaea;
@@ -171,6 +176,9 @@ nav a.active::after {
     .buttons{
     flex-direction: column;
     }
+
+    #subheading{
+      font-size: 1.4rem;}
     
 }
 /* ---------------- Our Services Section with Image Layers ---------------- */
