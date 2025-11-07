@@ -305,10 +305,10 @@ nav a.active::after {
 
 /* Background for Facial Services menu */
 .service-menu.facial::before {
-  background: url('images/menu\ Photo\ 1.jpg') no-repeat center center/cover;
+  background: url('images/pic4.jpg') no-repeat center center/cover;
   background-attachment: fixed;
   background-size: 40%;
-  background-position: 75%;
+  background-position: 75% 95%;
 }
 
 /* ----------- NAVIGATION RESPONSIVE STYLES ----------- */
@@ -399,10 +399,13 @@ nav a.active::after {
     font-size: 38px;
 }
 
-.service-menu.hair::before , .service-menu.facial::before  {
+.service-menu.hair::before  {
     background-attachment: scroll;
     background-size: 120%;
 }
+.service-menu.facial::before {
+    background-attachment: scroll;
+    background-size: 145%;
 }
 #gallery{
   background: linear-gradient(to bottom,#0e0f0e, #0a160600 );
@@ -410,7 +413,7 @@ nav a.active::after {
   padding: 80px 0;
 }
 
-
+}
 
 /* ====== Our Gallery Section ====== */
 
@@ -599,12 +602,13 @@ nav a.active::after {
 
 .note {
   background-color: #141b14;
-  border-radius: 5px;
+  border-radius: 10px;
   font-size: 0.9rem;
   color: #999;
   margin-top: 20px;
   font-style: italic;
-  padding-left: 5px;
+  padding: 10px;
+  
 }
 
 /* ==== RESPONSIVE ==== */
