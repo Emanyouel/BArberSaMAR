@@ -239,7 +239,7 @@ nav a.active::after {
   content: "";
   position: absolute;
   inset: 0;
-  background: url('images/menu\ Photo\ 1.jpg') no-repeat center center/cover; /* placeholder */
+  background: url('images/pic4.jpg') no-repeat center center/cover; /* placeholder */
   background-attachment: fixed;
   opacity: 0.55; /* adjust for more/less visibility of image */
   z-index: 0;
@@ -401,7 +401,7 @@ nav a.active::after {
 
 .service-menu.hair::before  {
     background-attachment: scroll;
-    background-size: 120%;
+    background-size: 125%;
 }
 .service-menu.facial::before {
     background-attachment: scroll;
